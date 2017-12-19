@@ -1,0 +1,11 @@
+int const centedge[10]={80,70,60,50,40,30,20,10,5,0};
+const float Nbin[9] = {12.91047, 29.32408, 62.25545, 120.65795, 215.95050, 360.58912, 579.89409, 812.73278, 1042.75372};
+// const int nPtBins = 5;
+// const double PtEdge[nPtBins+1] = {1.5, 3, 4., 5., 6., 10.};
+const int nPtBins = 7;
+const double PtEdge[nPtBins+1] = {2,2.5,3,3.5,4,5,6,10};
+const double D0Branch = 0.0393;
+const double DstarBranch = 0.677;
+const int nCentBins = 5;
+const int hCentEdge[nCentBins]={8,6,3,6,5};
+const int lCentEdge[nCentBins]={7,4,0,6,4};
